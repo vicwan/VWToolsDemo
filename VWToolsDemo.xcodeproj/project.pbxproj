@@ -14,6 +14,9 @@
 		3D71B0052085E1500088124E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71B0032085E1500088124E /* LaunchScreen.storyboard */; };
 		3D71B0082085E1500088124E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0072085E1500088124E /* main.m */; };
 		3D71B0122085E1500088124E /* VWToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0112085E1500088124E /* VWToolsDemoTests.m */; };
+		3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0242085E32D0088124E /* NSString+TimeZone.m */; };
+		3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0272085E3410088124E /* NSObject+Runtime.m */; };
+		3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		3D71B00D2085E1500088124E /* VWToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71B0112085E1500088124E /* VWToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWToolsDemoTests.m; sourceTree = "<group>"; };
 		3D71B0132085E1500088124E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71B0232085E32D0088124E /* NSString+TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeZone.h"; sourceTree = "<group>"; };
+		3D71B0242085E32D0088124E /* NSString+TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeZone.m"; sourceTree = "<group>"; };
+		3D71B0262085E3410088124E /* NSObject+Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		3D71B0272085E3410088124E /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatJudgement.h"; sourceTree = "<group>"; };
+		3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatJudgement.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,7 @@
 				3D71B0032085E1500088124E /* LaunchScreen.storyboard */,
 				3D71B0062085E1500088124E /* Info.plist */,
 				3D71B0072085E1500088124E /* main.m */,
+				3D71B01C2085E1620088124E /* VWTools */,
 			);
 			path = VWToolsDemo;
 			sourceTree = "<group>";
@@ -101,6 +111,35 @@
 				3D71B0132085E1500088124E /* Info.plist */,
 			);
 			path = VWToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		3D71B01C2085E1620088124E /* VWTools */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B0292085E35F0088124E /* Categories */,
+			);
+			path = VWTools;
+			sourceTree = "<group>";
+		};
+		3D71B0292085E35F0088124E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B02A2085E3C70088124E /* TimeZone */,
+				3D71B0262085E3410088124E /* NSObject+Runtime.h */,
+				3D71B0272085E3410088124E /* NSObject+Runtime.m */,
+				3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */,
+				3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3D71B02A2085E3C70088124E /* TimeZone */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B0232085E32D0088124E /* NSString+TimeZone.h */,
+				3D71B0242085E32D0088124E /* NSString+TimeZone.m */,
+			);
+			path = TimeZone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +186,7 @@
 		3D71AFED2085E1500088124E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VW;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "万伟琦";
 				TargetAttributes = {
@@ -207,7 +247,10 @@
 			files = (
 				3D71AFFD2085E1500088124E /* ViewController.m in Sources */,
 				3D71B0082085E1500088124E /* main.m in Sources */,
+				3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */,
 				3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */,
+				3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */,
+				3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
