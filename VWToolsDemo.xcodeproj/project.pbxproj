@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A6071EFC0353E55E836A2F /* libPods-VWToolsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0102F66789296931E725B8AB /* libPods-VWToolsDemoTests.a */; };
 		3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */; };
+		3D6D3D3620872E0C00B029E5 /* VWStringJudgementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D3D3520872E0C00B029E5 /* VWStringJudgementTests.m */; };
+		3D6D3D382087353F00B029E5 /* VWTimeZoneConversionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D3D372087353F00B029E5 /* VWTimeZoneConversionSpec.m */; };
 		3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFF92085E1500088124E /* AppDelegate.m */; };
 		3D71AFFD2085E1500088124E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFFC2085E1500088124E /* ViewController.m */; };
 		3D71B0002085E1500088124E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AFFE2085E1500088124E /* Main.storyboard */; };
 		3D71B0022085E1500088124E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D71B0012085E1500088124E /* Assets.xcassets */; };
 		3D71B0052085E1500088124E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71B0032085E1500088124E /* LaunchScreen.storyboard */; };
 		3D71B0082085E1500088124E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0072085E1500088124E /* main.m */; };
-		3D71B0122085E1500088124E /* VWToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0112085E1500088124E /* VWToolsDemoTests.m */; };
 		3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0242085E32D0088124E /* NSString+TimeZone.m */; };
 		3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0272085E3410088124E /* NSObject+Runtime.m */; };
 		3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */; };
+		AC90B54EB576B69BE8CC8855 /* libPods-VWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FB32121C7838C0BE620735 /* libPods-VWToolsDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0102F66789296931E725B8AB /* libPods-VWToolsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VWToolsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FB32121C7838C0BE620735 /* libPods-VWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D2D92302086E22D00BA9D2A /* NSDate+TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeZone.h"; sourceTree = "<group>"; };
 		3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeZone.m"; sourceTree = "<group>"; };
+		3D6D3D3520872E0C00B029E5 /* VWStringJudgementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWStringJudgementTests.m; sourceTree = "<group>"; };
+		3D6D3D372087353F00B029E5 /* VWTimeZoneConversionSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWTimeZoneConversionSpec.m; sourceTree = "<group>"; };
 		3D71AFF52085E1500088124E /* VWToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71AFF82085E1500088124E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D71AFF92085E1500088124E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +52,6 @@
 		3D71B0062085E1500088124E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D71B0072085E1500088124E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D71B00D2085E1500088124E /* VWToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D71B0112085E1500088124E /* VWToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWToolsDemoTests.m; sourceTree = "<group>"; };
 		3D71B0132085E1500088124E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D71B0232085E32D0088124E /* NSString+TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeZone.h"; sourceTree = "<group>"; };
 		3D71B0242085E32D0088124E /* NSString+TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeZone.m"; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 		3D71B0272085E3410088124E /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatJudgement.h"; sourceTree = "<group>"; };
 		3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatJudgement.m"; sourceTree = "<group>"; };
+		830CAC636F6773570EC23D20 /* Pods-VWToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B52800E42F3810A61D9DCC1F /* Pods-VWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D02473BF6ED630EE6BFBBC2F /* Pods-VWToolsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC90B54EB576B69BE8CC8855 /* libPods-VWToolsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A6071EFC0353E55E836A2F /* libPods-VWToolsDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,8 @@
 				3D71AFF72085E1500088124E /* VWToolsDemo */,
 				3D71B0102085E1500088124E /* VWToolsDemoTests */,
 				3D71AFF62085E1500088124E /* Products */,
+				E89E056140D331F74B4E7955 /* Pods */,
+				9DEAE3E2AE0C6793FEE4815D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +124,8 @@
 		3D71B0102085E1500088124E /* VWToolsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D71B0112085E1500088124E /* VWToolsDemoTests.m */,
+				3D6D3D3520872E0C00B029E5 /* VWStringJudgementTests.m */,
+				3D6D3D372087353F00B029E5 /* VWTimeZoneConversionSpec.m */,
 				3D71B0132085E1500088124E /* Info.plist */,
 			);
 			path = VWToolsDemoTests;
@@ -147,6 +162,26 @@
 			path = TimeZone;
 			sourceTree = "<group>";
 		};
+		9DEAE3E2AE0C6793FEE4815D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FB32121C7838C0BE620735 /* libPods-VWToolsDemo.a */,
+				0102F66789296931E725B8AB /* libPods-VWToolsDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E89E056140D331F74B4E7955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				830CAC636F6773570EC23D20 /* Pods-VWToolsDemo.debug.xcconfig */,
+				B52800E42F3810A61D9DCC1F /* Pods-VWToolsDemo.release.xcconfig */,
+				D02473BF6ED630EE6BFBBC2F /* Pods-VWToolsDemoTests.debug.xcconfig */,
+				2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D71B0162085E1500088124E /* Build configuration list for PBXNativeTarget "VWToolsDemo" */;
 			buildPhases = (
+				76E7A6DF9FEB2144475A94A0 /* [CP] Check Pods Manifest.lock */,
 				3D71AFF12085E1500088124E /* Sources */,
 				3D71AFF22085E1500088124E /* Frameworks */,
 				3D71AFF32085E1500088124E /* Resources */,
+				3393E762EBEEB0A4FD280DBF /* [CP] Embed Pods Frameworks */,
+				72CE766EFF939BE5C3CB6072 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D71B0192085E1500088124E /* Build configuration list for PBXNativeTarget "VWToolsDemoTests" */;
 			buildPhases = (
+				4F7D96A3B22B66DFC4F24A53 /* [CP] Check Pods Manifest.lock */,
 				3D71B0092085E1500088124E /* Sources */,
 				3D71B00A2085E1500088124E /* Frameworks */,
 				3D71B00B2085E1500088124E /* Resources */,
+				CE666608621C65EAD0209D9E /* [CP] Embed Pods Frameworks */,
+				4090EE229C248C9DE8BB08F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +286,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3393E762EBEEB0A4FD280DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4090EE229C248C9DE8BB08F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F7D96A3B22B66DFC4F24A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VWToolsDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CE766EFF939BE5C3CB6072 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E7A6DF9FEB2144475A94A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VWToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE666608621C65EAD0209D9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D71AFF12085E1500088124E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D71B0122085E1500088124E /* VWToolsDemoTests.m in Sources */,
+				3D6D3D382087353F00B029E5 /* VWTimeZoneConversionSpec.m in Sources */,
+				3D6D3D3620872E0C00B029E5 /* VWStringJudgementTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +545,7 @@
 		};
 		3D71B0172085E1500088124E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830CAC636F6773570EC23D20 /* Pods-VWToolsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,6 +560,7 @@
 		};
 		3D71B0182085E1500088124E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52800E42F3810A61D9DCC1F /* Pods-VWToolsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,6 +575,7 @@
 		};
 		3D71B01A2085E1500088124E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02473BF6ED630EE6BFBBC2F /* Pods-VWToolsDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +591,7 @@
 		};
 		3D71B01B2085E1500088124E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
