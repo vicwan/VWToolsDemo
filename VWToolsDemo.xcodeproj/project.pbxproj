@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */; };
 		3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFF92085E1500088124E /* AppDelegate.m */; };
 		3D71AFFD2085E1500088124E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFFC2085E1500088124E /* ViewController.m */; };
 		3D71B0002085E1500088124E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AFFE2085E1500088124E /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D2D92302086E22D00BA9D2A /* NSDate+TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeZone.h"; sourceTree = "<group>"; };
+		3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeZone.m"; sourceTree = "<group>"; };
 		3D71AFF52085E1500088124E /* VWToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71AFF82085E1500088124E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D71AFF92085E1500088124E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 			children = (
 				3D71B0232085E32D0088124E /* NSString+TimeZone.h */,
 				3D71B0242085E32D0088124E /* NSString+TimeZone.m */,
+				3D2D92302086E22D00BA9D2A /* NSDate+TimeZone.h */,
+				3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */,
 			);
 			path = TimeZone;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 			files = (
 				3D71AFFD2085E1500088124E /* ViewController.m in Sources */,
 				3D71B0082085E1500088124E /* main.m in Sources */,
+				3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */,
 				3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */,
 				3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */,
 				3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */,
