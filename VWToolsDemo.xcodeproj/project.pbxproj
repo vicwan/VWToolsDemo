@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16A6071EFC0353E55E836A2F /* libPods-VWToolsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0102F66789296931E725B8AB /* libPods-VWToolsDemoTests.a */; };
 		3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */; };
+		3D68B8A7208DBEC100FDB4A0 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68B8A6208DBEC100FDB4A0 /* NSString+Encrypt.m */; };
 		3D6D3D3620872E0C00B029E5 /* VWStringJudgementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D3D3520872E0C00B029E5 /* VWStringJudgementTests.m */; };
 		3D6D3D382087353F00B029E5 /* VWTimeZoneConversionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D3D372087353F00B029E5 /* VWTimeZoneConversionSpec.m */; };
 		3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AFF92085E1500088124E /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 		2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D2D92302086E22D00BA9D2A /* NSDate+TimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeZone.h"; sourceTree = "<group>"; };
 		3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeZone.m"; sourceTree = "<group>"; };
+		3D68B8A5208DBEC100FDB4A0 /* NSString+Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		3D68B8A6208DBEC100FDB4A0 /* NSString+Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
 		3D6D3D3520872E0C00B029E5 /* VWStringJudgementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWStringJudgementTests.m; sourceTree = "<group>"; };
 		3D6D3D372087353F00B029E5 /* VWTimeZoneConversionSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWTimeZoneConversionSpec.m; sourceTree = "<group>"; };
 		3D71AFF52085E1500088124E /* VWToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +150,8 @@
 				3D71B0272085E3410088124E /* NSObject+Runtime.m */,
 				3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */,
 				3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */,
+				3D68B8A5208DBEC100FDB4A0 /* NSString+Encrypt.h */,
+				3D68B8A6208DBEC100FDB4A0 /* NSString+Encrypt.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */,
 				3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */,
 				3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */,
+				3D68B8A7208DBEC100FDB4A0 /* NSString+Encrypt.m in Sources */,
 				3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */,
 				3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */,
 			);
