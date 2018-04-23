@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Encrypt.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (Encrypt)
 
