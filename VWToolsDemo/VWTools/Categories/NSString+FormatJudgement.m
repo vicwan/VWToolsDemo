@@ -51,7 +51,7 @@
 	NSError *error = nil;
 	if (self) {
 		NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
-		id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+		[NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
 		isJson = !error;
 	}
 	return isJson;

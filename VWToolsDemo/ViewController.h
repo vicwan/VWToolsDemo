@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (void) doLog1:(NSString *)formatStr, ...;
 
 @end
 
