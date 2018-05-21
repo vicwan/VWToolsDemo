@@ -24,6 +24,7 @@
 		3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0242085E32D0088124E /* NSString+TimeZone.m */; };
 		3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0272085E3410088124E /* NSObject+Runtime.m */; };
 		3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */; };
+		3DD4ED2920B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD4ED2820B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		3D71B0272085E3410088124E /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatJudgement.h"; sourceTree = "<group>"; };
 		3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatJudgement.m"; sourceTree = "<group>"; };
+		3DD4ED2720B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CodeEfficiencyTest.h"; sourceTree = "<group>"; };
+		3DD4ED2820B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CodeEfficiencyTest.m"; sourceTree = "<group>"; };
 		830CAC636F6773570EC23D20 /* Pods-VWToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B52800E42F3810A61D9DCC1F /* Pods-VWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D02473BF6ED630EE6BFBBC2F /* Pods-VWToolsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 				3D68B8A6208DBEC100FDB4A0 /* NSString+Encrypt.m */,
 				3D68B8A8208DCF1600FDB4A0 /* NSMutableArray+Ext.h */,
 				3D68B8A9208DCF1600FDB4A0 /* NSMutableArray+Ext.m */,
+				3DD4ED2720B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.h */,
+				3DD4ED2820B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				3D2D92322086E22D00BA9D2A /* NSDate+TimeZone.m in Sources */,
 				3D71B0282085E3410088124E /* NSObject+Runtime.m in Sources */,
 				3D1A69BF209AB0A000FEDF54 /* UIColor+Ext.m in Sources */,
+				3DD4ED2920B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m in Sources */,
 				3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */,
 				3D68B8A7208DBEC100FDB4A0 /* NSString+Encrypt.m in Sources */,
 				3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */,
@@ -627,6 +633,7 @@
 			baseConfigurationReference = D02473BF6ED630EE6BFBBC2F /* Pods-VWToolsDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 389BMU82Q2;
 				ENABLE_BITCODE = NO;
@@ -645,6 +652,7 @@
 			baseConfigurationReference = 2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 389BMU82Q2;
 				ENABLE_BITCODE = NO;
