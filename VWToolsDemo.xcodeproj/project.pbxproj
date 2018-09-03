@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D12CF1420EC5E180023CD72 /* NSString+TimeRemainDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12CF1320EC5E180023CD72 /* NSString+TimeRemainDescription.m */; };
 		3D1A69BF209AB0A000FEDF54 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A69BE209AB0A000FEDF54 /* UIColor+Ext.m */; };
 		3D1A69C6209ABB9500FEDF54 /* libPods-VWToolsDemo.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11FB32121C7838C0BE620735 /* libPods-VWToolsDemo.a */; };
 		3D1A69CB209AC59800FEDF54 /* libPods-VWToolsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1A69CC209AC59800FEDF54 /* libPods-VWToolsDemoTests.a */; };
@@ -54,6 +55,8 @@
 		0102F66789296931E725B8AB /* libPods-VWToolsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VWToolsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FB32121C7838C0BE620735 /* libPods-VWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0179E5CC6A4381170A7810 /* Pods-VWToolsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemoTests/Pods-VWToolsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D12CF1220EC5E180023CD72 /* NSString+TimeRemainDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeRemainDescription.h"; sourceTree = "<group>"; };
+		3D12CF1320EC5E180023CD72 /* NSString+TimeRemainDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeRemainDescription.m"; sourceTree = "<group>"; };
 		3D1A69BD209AB0A000FEDF54 /* UIColor+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
 		3D1A69BE209AB0A000FEDF54 /* UIColor+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
 		3D1A69C9209ABC5600FEDF54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -178,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				3D1A69C2209AB3B700FEDF54 /* UIColor */,
-				3D71B02A2085E3C70088124E /* TimeZone */,
+				3D71B02A2085E3C70088124E /* Time */,
 				3D71B0262085E3410088124E /* NSObject+Runtime.h */,
 				3D71B0272085E3410088124E /* NSObject+Runtime.m */,
 				3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */,
@@ -193,15 +196,17 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		3D71B02A2085E3C70088124E /* TimeZone */ = {
+		3D71B02A2085E3C70088124E /* Time */ = {
 			isa = PBXGroup;
 			children = (
 				3D71B0232085E32D0088124E /* NSString+TimeZone.h */,
 				3D71B0242085E32D0088124E /* NSString+TimeZone.m */,
 				3D2D92302086E22D00BA9D2A /* NSDate+TimeZone.h */,
 				3D2D92312086E22D00BA9D2A /* NSDate+TimeZone.m */,
+				3D12CF1220EC5E180023CD72 /* NSString+TimeRemainDescription.h */,
+				3D12CF1320EC5E180023CD72 /* NSString+TimeRemainDescription.m */,
 			);
-			path = TimeZone;
+			path = Time;
 			sourceTree = "<group>";
 		};
 		9DEAE3E2AE0C6793FEE4815D /* Frameworks */ = {
@@ -445,6 +450,7 @@
 				3D71AFFA2085E1500088124E /* AppDelegate.m in Sources */,
 				3D68B8A7208DBEC100FDB4A0 /* NSString+Encrypt.m in Sources */,
 				3D71B0332085E7B40088124E /* NSString+FormatJudgement.m in Sources */,
+				3D12CF1420EC5E180023CD72 /* NSString+TimeRemainDescription.m in Sources */,
 				3D71B0252085E32D0088124E /* NSString+TimeZone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
