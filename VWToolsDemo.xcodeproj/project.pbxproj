@@ -87,6 +87,7 @@
 		3D71B0272085E3410088124E /* NSObject+Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		3D71B0312085E7B40088124E /* NSString+FormatJudgement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatJudgement.h"; sourceTree = "<group>"; };
 		3D71B0322085E7B40088124E /* NSString+FormatJudgement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatJudgement.m"; sourceTree = "<group>"; };
+		3D7CB46221A584C300261ACE /* VWRuntimeEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWRuntimeEncoding.h; sourceTree = "<group>"; };
 		3DD4ED2720B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CodeEfficiencyTest.h"; sourceTree = "<group>"; };
 		3DD4ED2820B2AE4E000B45E1 /* NSObject+CodeEfficiencyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CodeEfficiencyTest.m"; sourceTree = "<group>"; };
 		830CAC636F6773570EC23D20 /* Pods-VWToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VWToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VWToolsDemo/Pods-VWToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				3D71B0292085E35F0088124E /* Categories */,
+				3D7CB46221A584C300261ACE /* VWRuntimeEncoding.h */,
 			);
 			path = VWTools;
 			sourceTree = "<group>";
